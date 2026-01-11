@@ -1,0 +1,148 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model AdminUser {
+  id        String   @id @default(uuid())
+  username  String   @unique
+  password  String
+  createdAt DateTime @default(now())
+}
+
+// Flexible JSON storage for Page Content (Home, Mining Page Text, etc.)
+model PageContent {
+  id           String   @id @default(uuid())
+  pageKey      String   @unique // e.g. "home", "mining", "contact"
+  sectionsJson String // Stored as JSON string due to SQLite limitations on mixed types
+  updatedAt    DateTime @updatedAt
+}
+
+// Global Site Settings
+model GlobalSettings {
+  id           String   @id @default(uuid())
+  settingsJson String // Identity, Contact, Footer
+  locationsJson String // Array of office locations
+  smtpConfigJson String? // SMTP Settings (Host, Port, User, Pass)
+  updatedAt    DateTime @updatedAt
+}
+
+// Real Estate Listings
+model RealEstateListing {
+  id          String   @id @default(uuid())
+  title       String
+  slug        String   @unique
+  price       Float
+  location    String
+  type        String   // Sale, Rent
+  description String
+  features    String   // JSON array of strings
+  images      String   // JSON array of image URLs
+  sqft        Float
+  bedrooms    Int
+  bathrooms   Int
+  status      String   // Available, Sold
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+// Mining Projects
+model MiningProject {
+  id               String   @id @default(uuid())
+  name             String
+  code             String   @unique
+  location         String
+  status           String
+  mineralType      String
+  reservesEstimate String
+  imageUrl         String
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+}
+
+// Agrobusiness (Crop Cycles)
+model AgrobusinessProject {
+  id          String   @id @default(uuid())
+  name        String
+  crop        String
+  stage       String
+  startDate   DateTime
+  expectedHarvest DateTime
+  status      String
+  detailsJson String   // Extra details
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+// Chemicals (Products/Shipments)
+model ChemicalProduct {
+  id          String   @id @default(uuid())
+  name        String
+  category    String
+  description String
+  stockStatus String
+  technicalSpecsJson String // JSON keys/values
+  imageUrl    String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+// Elution Plants (Facilities)
+model ElutionPlant {
+  id          String   @id @default(uuid())
+  name        String
+  location    String
+  capacity    String
+  status      String
+  featuresJson String
+  imageUrl    String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+// Partners
+model Partner {
+  id        String   @id @default(uuid())
+  name      String
+  logoUrl   String
+  website   String?
+  category  String? // e.g., "Financial", "Technical"
+  createdAt DateTime @default(now())
+}
+
+// Contact Messages
+model ContactMessage {
+  id        String   @id @default(uuid())
+  name      String
+  email     String
+  subject   String
+  message   String
+  status    String   @default("NEW") // NEW, READ, REPLIED
+  reply     String?  // Optional reply content
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+// News & Updates
+model NewsPost {
+  id        String   @id @default(uuid())
+  title     String
+  content   String
+  type      String   @default("TEXT") // TEXT, IMAGE, VIDEO, AUDIO
+  mediaUrl  String?
+  published Boolean  @default(false)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+// Newsletter Subscribers
+model Subscriber {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+}

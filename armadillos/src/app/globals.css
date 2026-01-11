@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+
+
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --background: #fafafa;
+  --foreground: #0f172a;
+
+  --primary: #fbbf24;
+  --primary-foreground: #0f172a;
+
+  --font-sans: "Inter", sans-serif;
+  --font-serif: "Cinzel", serif;
+}
+
+/* Light Mode Defaults */
+body {
+  background: #fafafa;
+  /* Neutral 50 / Off-white */
+  color: #0f172a;
+  /* Slate 900 */
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Dark Mode Overrides - The Royal Gold Theme */
+.dark body {
+  background: radial-gradient(circle at 50% -20%, #453000, #1a1200, #000000, #000000);
+  background-attachment: fixed;
+  /* Ensure gradient stays */
+  color: #f8fafc;
+}
+
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.03'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode: overlay;
+}
+
+/* Utilities */
+.text-gold {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-amber-200 via-amber-400 to-amber-600;
+}
+
+.glass-card {
+  @apply bg-slate-900/40 backdrop-blur-xl border border-white/10 shadow-xl;
+}
+
+
+.glass-nav {
+  @apply bg-slate-950/60 backdrop-blur-2xl border border-white/5;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}

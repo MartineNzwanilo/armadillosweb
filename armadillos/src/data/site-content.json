@@ -1,0 +1,565 @@
+{
+    "identity": {
+        "name": "Armadillos",
+        "description": "Pioneering sustainable wealth creation through strategic investments in Gold Mining, Real Estate, and Modern Agrobusiness."
+    },
+    "contact": {
+        "title": "Global Headquarters",
+        "address": "Golden Jubilee Towers, 14th Floor\nOhio Street, P.O. Box 4567\nDar Es Salaam, Tanzania",
+        "emails": [
+            "invest@armadillos.co.tz",
+            "info@armadillos.co.tz"
+        ],
+        "phones": [
+            "+255 22 212 3456",
+            "+255 76 712 3456"
+        ],
+        "socials": {
+            "facebook": "https://facebook.com",
+            "twitter": "https://twitter.com",
+            "linkedin": "https://linkedin.com",
+            "instagram": "https://instagram.com"
+        }
+    },
+    "locations": [
+        {
+            "id": "hq",
+            "title": "Global Headquarters",
+            "type": "Corporate",
+            "location": "Dar es Salaam",
+            "desc": "Regional financial hub and executive offices.",
+            "icon": "Crown",
+            "lat": -6.7924,
+            "lng": 39.2083,
+            "color": "text-amber-500",
+            "bg": "bg-amber-500",
+            "colorHex": "#f59e0b"
+        },
+        {
+            "id": "mining",
+            "title": "Gold Extraction Ops",
+            "type": "Mining",
+            "location": "Kahama, Shinyanga",
+            "desc": "Large scale open-pit and CIL processing facilities.",
+            "icon": "Pickaxe",
+            "lat": -3.8291,
+            "lng": 32.5996,
+            "color": "text-amber-400",
+            "bg": "bg-amber-400",
+            "colorHex": "#fbbf24"
+        },
+        {
+            "id": "agro",
+            "title": "Green Valley Farms",
+            "type": "Agrobusiness",
+            "location": "Morogoro",
+            "desc": "5,000+ acre mechanized maize and sunflower plantation.",
+            "icon": "Sprout",
+            "lat": -6.8278,
+            "lng": 37.6591,
+            "color": "text-green-500",
+            "bg": "bg-green-500",
+            "colorHex": "#22c55e"
+        },
+        {
+            "id": "estate",
+            "title": "Northern Estates",
+            "type": "Real Estate",
+            "location": "Arusha",
+            "desc": "Luxury safari villas and commercial developments.",
+            "icon": "Building",
+            "lat": -3.3869,
+            "lng": 36.6830,
+            "color": "text-blue-500",
+            "bg": "bg-blue-500",
+            "colorHex": "#3b82f6"
+        },
+        {
+            "id": "zanzibar",
+            "title": "Island Resorts",
+            "type": "Hospitality",
+            "location": "Zanzibar",
+            "desc": "Premium beachfront investment properties.",
+            "icon": "Building",
+            "lat": -6.1659,
+            "lng": 39.2026,
+            "color": "text-cyan-400",
+            "bg": "bg-cyan-400",
+            "colorHex": "#22d3ee"
+        }
+    ],
+    "footer": {
+        "newsletter_title": "Stay Updated",
+        "newsletter_desc": "Subscribe to our newsletter for the latest investment opportunities.",
+        "copyright_text": "Armadillos Company Limited",
+        "quick_links_title": "Explore",
+        "legal_links_title": "Company",
+        "quick_links": [
+            {
+                "label": "Home",
+                "url": "/"
+            },
+            {
+                "label": "Mining",
+                "url": "/mining"
+            },
+            {
+                "label": "Real Estate",
+                "url": "/real-estate"
+            },
+            {
+                "label": "Agrobusiness",
+                "url": "/agrobusiness"
+            },
+            {
+                "label": "Contact",
+                "url": "/contact"
+            }
+        ],
+        "legal_links": [
+            {
+                "label": "About Us",
+                "url": "#"
+            },
+            {
+                "label": "Careers",
+                "url": "#"
+            },
+            {
+                "label": "Privacy Policy",
+                "url": "#"
+            },
+            {
+                "label": "Terms of Service",
+                "url": "#"
+            }
+        ]
+    },
+    "home": {
+        "hero": {
+            "badge": "The Gold Standard",
+            "title_line_1": "Forge Your",
+            "title_line_2": "Golden Legacy",
+            "description": "Armadillos is redefining sustainable investment in Tanzania. From high-yield gold mining to premium real estate and agrobusiness.",
+            "cta_primary": "Start Investing",
+            "cta_secondary": "View Portfolio"
+        },
+        "partners_section": {
+            "title": "Trusted by Industry Leaders",
+            "subtitle": "Collaborating with global powerhouses."
+        },
+        "partners_list": [
+            {
+                "name": "Global Mining Corp",
+                "icon": "Pickaxe"
+            },
+            {
+                "name": "Tanzania Investment Bank",
+                "icon": "Landmark"
+            },
+            {
+                "name": "Green Future Agro",
+                "icon": "Sprout"
+            },
+            {
+                "name": "Royal Estate Holdings",
+                "icon": "Building2"
+            },
+            {
+                "name": "Pan-African Ventures",
+                "icon": "Globe"
+            },
+            {
+                "name": "Secure Trust Ltd",
+                "icon": "ShieldCheck"
+            },
+            {
+                "name": "Elite Partners Group",
+                "icon": "Briefcase"
+            },
+            {
+                "name": "Gold Standard Reserve",
+                "icon": "Gem"
+            }
+        ],
+        "mining_section": {
+            "title": "Gold Mining",
+            "badge": "Our Expertise",
+            "description": "Combining traditional expertise with modern extraction technology to deliver superior value.",
+            "services": [
+                {
+                    "title": "Gold Investment",
+                    "description": "Secure, profitable opportunities backed by local expertise and high recovery rates."
+                },
+                {
+                    "title": "CIP / CIL Technology",
+                    "description": "Advanced extraction using activated carbon for maximum efficiency and environmental safety."
+                },
+                {
+                    "title": "Chemical Supply",
+                    "description": "Premium cyanide and reagents supply for mining operations across the region."
+                }
+            ]
+        },
+        "real_estate_section": {
+            "title": "Premium Real Estate",
+            "description": "Exclusive properties in prime locations."
+        },
+        "agrobusiness_section": {
+            "title": "Modern Agrobusiness",
+            "description": "High-yield agricultural investments."
+        },
+        "sectors": [
+            {
+                "id": "mining",
+                "title": "Gold Mining",
+                "desc": "High-efficiency extraction and chemical supply."
+            },
+            {
+                "id": "real-estate",
+                "title": "Real Estate",
+                "desc": "Premium developments and urban lifestyle."
+            },
+            {
+                "id": "agrobusiness",
+                "title": "Agrobusiness",
+                "desc": "Sustainable farming and processing technology."
+            }
+        ]
+    },
+    "real_estate_listings": [
+        {
+            "id": "dar-es-salaam-city",
+            "title": "Dar Es Salaam City",
+            "category": "Commercial & Residential",
+            "price": "$1,200,000",
+            "location": "City Center, Dar Es Salaam",
+            "description": "A flagship mixed-use development in the heart of the financial district. This iconic tower defines the skyline, offering premium office spaces on lower floors and ultra-luxury residential penthouses above. Designed for the modern executive, it features direct access to international banks, 5-star dining, and the port.",
+            "image": "/assets/images/apartment.jpg",
+            "images": [
+                "/assets/images/apartment.jpg",
+                "/assets/images/apartment.jpg",
+                "/assets/images/apartment.jpg"
+            ],
+            "features": [
+                "Panic Room",
+                "Helipad Access",
+                "Smart-Climate Control",
+                "Private Elevator"
+            ],
+            "stats": {
+                "sqft": "4,500",
+                "beds": "4",
+                "baths": "3.5"
+            }
+        },
+        {
+            "id": "wellness-centers",
+            "title": "Serengeti Wellness",
+            "category": "Health & Lifestyle",
+            "price": "$850,000",
+            "location": "Masaki Peninsula",
+            "description": "An oasis of tranquility amidst the urban hustle. The Serengeti Wellness Center combines holistic living with architectural brilliance. Each unit is designed with Feng Shui principles, featuring living walls, air purification systems, and access to a residents-only spa and organic garden.",
+            "image": "/assets/images/apartment.jpg",
+            "images": [
+                "/assets/images/apartment.jpg",
+                "/assets/images/apartment.jpg",
+                "/assets/images/apartment.jpg"
+            ],
+            "features": [
+                "Organic Garden",
+                "Spa & Sauna",
+                "Yoga Studio",
+                "Oxygen Filtration"
+            ],
+            "stats": {
+                "sqft": "2,800",
+                "beds": "3",
+                "baths": "3"
+            }
+        },
+        {
+            "id": "luxury-villas",
+            "title": "Zanzibar Horizon Villas",
+            "category": "Residential",
+            "price": "$450,000",
+            "location": "Nungwi Beach, Zanzibar",
+            "description": "Experience the ultimate island lifestyle. These beachfront villas offer unobstructed views of the Indian Ocean. Built with sustainable local materials like coral stone and coconut timber, yet equipped with state-of-the-art smart home technology. Perfect for vacation homes or high-yield rental investments.",
+            "image": "/assets/images/apartment.jpg",
+            "images": [
+                "/assets/images/apartment.jpg",
+                "/assets/images/apartment.jpg",
+                "/assets/images/apartment.jpg"
+            ],
+            "features": [
+                "Private Infinity Pool",
+                "Beach Access",
+                "Solar Powered",
+                "24/7 Security"
+            ],
+            "stats": {
+                "sqft": "3,200",
+                "beds": "5",
+                "baths": "6"
+            }
+        },
+        {
+            "id": "eco-resorts",
+            "title": "Ngorongoro Eco-Lodge",
+            "category": "Hospitality",
+            "price": "$2,500,000",
+            "location": "Karatu, Arusha",
+            "description": "A masterclass in sustainable luxury tourism. Perched on the rim of the crater, this lodge offers guests an immersive wildlife experience without compromising on comfort. The property generates 100% of its own energy and water, making it a lucrative and guilt-free investment in Tanzania's booming tourism sector.",
+            "image": "/assets/images/apartment.jpg",
+            "images": [
+                "/assets/images/apartment.jpg",
+                "/assets/images/apartment.jpg",
+                "/assets/images/apartment.jpg"
+            ],
+            "features": [
+                "Off-Grid Power",
+                "Wildlife Deck",
+                "Helipad",
+                "Greywater System"
+            ],
+            "stats": {
+                "sqft": "12,000",
+                "beds": "10 (Suites)",
+                "baths": "12"
+            }
+        }
+    ],
+    "mining": {
+        "stats": {
+            "gold_purity": "99.9%",
+            "monthly_production": "24.5 kg",
+            "total_reserves": "1,200 kg",
+            "operational_sites": "3"
+        },
+        "projects": [
+            {
+                "id": "geita-gold-belt",
+                "name": "Geita Gold Belt",
+                "status": "Active Extraction",
+                "yield": "15 kg/mo",
+                "location": "Geita Region",
+                "image": "/assets/images/mining-1.jpg"
+            },
+            {
+                "id": "kahama-expansion",
+                "name": "Kahama Expansion",
+                "status": "Exploration",
+                "yield": "Projected 50 kg/mo",
+                "location": "Shinyanga",
+                "image": "/assets/images/mining-2.jpg"
+            }
+        ]
+    },
+    "agrobusiness": {
+        "stats": {
+            "hectares_cultivated": "5,000 Ha",
+            "annual_yield": "12.5k Tons",
+            "active_partners": "120"
+        },
+        "page_content": {
+            "hero": {
+                "title": "Modern Agrobusiness",
+                "highlight": "Agro",
+                "subtitle": "Leveraging technology and sustainable practices to revolutionize farming in Tanzania.",
+                "image": "/assets/images/farming-bg.jpg"
+            },
+            "intro": {
+                "badge": "Feeding the Future",
+                "title_prefix": "Strategic",
+                "title_highlight": "Agriculture",
+                "description": "Our agricultural division focuses on large-scale mechanized farming of maize and sunflower, combined with value-added processing facilities to ensure food security and export-quality produce.",
+                "stat_1_value": "5000+",
+                "stat_1_label": "Acres Cultivated",
+                "stat_2_value": "30%",
+                "stat_2_label": "Yield Increase",
+                "images": [
+                    "/assets/images/farming.jpg",
+                    "/assets/images/farming-tractor.png",
+                    "/assets/images/farming-drone.png"
+                ]
+            },
+            "features": [
+                {
+                    "title": "Quality Seeds",
+                    "description": "High-yield, drought-resistant crop varieties adapted to local climate.",
+                    "icon": "Sprout"
+                },
+                {
+                    "title": "Mechanization",
+                    "description": "Modern machinery fleet for efficient land preparation and harvesting.",
+                    "icon": "Tractor"
+                },
+                {
+                    "title": "Sustainability",
+                    "description": "Eco-friendly practices preserving soil health and biodiversity.",
+                    "icon": "Leaf"
+                }
+            ]
+        },
+        "crops": [
+            {
+                "id": "avocado-export",
+                "name": "Organic Avocados",
+                "season": "March - September",
+                "market": "European Union",
+                "status": "Harvesting",
+                "image": "/assets/images/agro-1.jpg"
+            },
+            {
+                "id": "cashew-processing",
+                "name": "Premium Cashews",
+                "season": "October - January",
+                "market": "Global",
+                "status": "Processing",
+                "image": "/assets/images/agro-2.jpg"
+            }
+        ]
+    },
+    "chemicals": {
+        "stats": {
+            "active_orders": "124",
+            "tonnage_shipped": "5,400T",
+            "compliance_score": "99.8%",
+            "clients": "45"
+        },
+        "page_content": {
+            "hero": {
+                "title": "Industrial Chemicals",
+                "highlight": "Chemicals",
+                "subtitle": "Premium grade reagents and processing chemicals for the mining and industrial sectors.",
+                "image": "/assets/images/chemicals-bg.png"
+            },
+            "slides": [
+                {
+                    "title": "Reagents",
+                    "description": "Premium grade extraction inputs.",
+                    "stat": "99.9%",
+                    "statLabel": "Purity",
+                    "badgeValue": "ISO",
+                    "badgeLabel": "Certified",
+                    "icon": "FlaskConical"
+                },
+                {
+                    "title": "Logistics",
+                    "description": "Uninterrupted delivery chain.",
+                    "stat": "24/7",
+                    "statLabel": "Supply",
+                    "badgeValue": "100%",
+                    "badgeLabel": "On-Time",
+                    "icon": "Truck"
+                },
+                {
+                    "title": "Safety",
+                    "description": "Strict compliance protocols.",
+                    "stat": "Zero",
+                    "statLabel": "Harm",
+                    "badgeValue": "Safe",
+                    "badgeLabel": "Handling",
+                    "icon": "ShieldCheck"
+                }
+            ],
+            "features": [
+                {
+                    "title": "Reagents",
+                    "description": "High-purity inputs for CIL/CIP processes.",
+                    "icon": "Beaker"
+                },
+                {
+                    "title": "Bulk Supply",
+                    "description": "Industrial scale logistics and storage solutions.",
+                    "icon": "Factory"
+                }
+            ]
+        },
+        "projects": [
+            {
+                "name": "Sodium Cyanide Batch #402",
+                "location": "Dar Port -> Geita",
+                "status": "In Transit",
+                "yield": "500 Drums"
+            },
+            {
+                "name": "Activated Carbon Supply",
+                "location": "Mwanza Depot",
+                "status": "Stockpile",
+                "yield": "1200 Bags"
+            }
+        ]
+    },
+    "elution": {
+        "stats": {
+            "operational_plants": "3",
+            "processing_capacity": "1,500T/Day",
+            "efficiency_rate": "96.5%",
+            "weekly_output": "45kg Au"
+        },
+        "page_content": {
+            "hero": {
+                "title": "Elution Plant Services",
+                "highlight": "Elution",
+                "subtitle": "State-of-the-art gold recovery systems designed for maximum efficiency and yield.",
+                "image": "/assets/images/elution-bg.png"
+            },
+            "slides": [
+                {
+                    "title": "Efficiency",
+                    "description": "High-yield desorption systems.",
+                    "stat": "98%",
+                    "statLabel": "Recovery",
+                    "badgeValue": "Max",
+                    "badgeLabel": "Yield",
+                    "icon": "Zap"
+                },
+                {
+                    "title": "Automation",
+                    "description": "Smart process monitoring.",
+                    "stat": "AI",
+                    "statLabel": "Controls",
+                    "badgeValue": "Tech",
+                    "badgeLabel": "Smart",
+                    "icon": "Cpu"
+                },
+                {
+                    "title": "Savings",
+                    "description": "Reduced operational costs.",
+                    "stat": "-30%",
+                    "statLabel": "Energy",
+                    "badgeValue": "Eco",
+                    "badgeLabel": "Green",
+                    "icon": "TrendingUp"
+                }
+            ],
+            "features": [
+                {
+                    "title": "98% Yield",
+                    "description": "Optimized stripping for maximum gold recovery.",
+                    "icon": "TrendingUp"
+                },
+                {
+                    "title": "Turnkey",
+                    "description": "Full installation and operational support.",
+                    "icon": "Settings"
+                }
+            ]
+        },
+        "projects": [
+            {
+                "name": "Chunya Elution Center",
+                "location": "Mbeya Region",
+                "status": "Operational",
+                "yield": "98.2% Recovery"
+            },
+            {
+                "name": "Kahama Refining Plant",
+                "location": "Shinyanga",
+                "status": "Maintenance",
+                "yield": "95.0% Recovery"
+            }
+        ]
+    }
+}

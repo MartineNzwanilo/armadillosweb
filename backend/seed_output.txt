@@ -1,0 +1,16 @@
+
+> armadillos-backend@1.0.0 seed
+> ts-node src/seed.ts
+
+🌱 Starting database seed...
+🗑️ Clearing database...
+✅ Admin user created: admin / admin123
+✅ Global Settings seeded
+✅ Page Content seeded
+✅ Mining Projects seeded
+✅ Agrobusiness Projects seeded
+✅ Chemical Products seeded
+✅ Elution Plants seeded
+✅ Real Estate Listings seeded
+✅ Partners seeded
+✅ Seeding completed successfully.
